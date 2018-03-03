@@ -15,9 +15,9 @@ attr_accessor :knowledge
      return KNOWLEDGE
 
     end
-
-    def knowledge
-      @knowledge
-    end
+    #
+    # def knowledge
+    #   @knowledge
+    # end
 
 end

@@ -9,7 +9,7 @@ class Teacher < User
 
   def teach
     @knowledge << KNOWLEDGE.join
-  p   @knowledge =
+     @knowledge 
   end
 
   def knowledge

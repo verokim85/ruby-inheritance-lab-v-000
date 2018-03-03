@@ -10,6 +10,8 @@ class Teacher < User
 
     KNOWLEDGE.join
     @knowledge << KNOWLEDGE
+    return @knowledge
+  end 
 
   # def teach
   #   return KNOWLEDGE
@@ -18,8 +20,8 @@ class Teacher < User
   #   # end
   # end
   #
-  # def knowledge
-  #   @knowledge
-  # end
+  def knowledge
+    @knowledge
+  end
 
 end

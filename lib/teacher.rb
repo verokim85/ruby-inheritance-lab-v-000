@@ -8,8 +8,8 @@ class Teacher < User
   end
 
   def teach
-    @knowledge << KNOWLEDGE.join
-     @knowledge
+    self.KNOWLEDGE.each do |word|
+      @knowledge << word
   end
 
   def knowledge

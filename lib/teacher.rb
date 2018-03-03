@@ -7,7 +7,7 @@ class Teacher < User
   # end
 
   def teach(KNOWLEDGE)
-    KNOWLEDGE = self
+    self << KNOWLEDGE
     #  knowledge = teacher
    end
 

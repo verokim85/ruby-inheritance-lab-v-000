@@ -8,20 +8,12 @@ class Teacher < User
       @knowledge = []
     end
 
-
     def teach
     KNOWLEDGE.join
     @knowledge << KNOWLEDGE
      puts @knowledge
   end
 
-  # def teach
-  #   return KNOWLEDGE
-  #   # KNOWLEDGE.map do |word|
-  #   #   word
-  #   # end
-  # end
-  #
   def knowledge
     @knowledge
   end

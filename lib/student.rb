@@ -4,7 +4,9 @@ class Student < User
     @knowledge = []
   end
 
-  def leastn
+  def learn
+
+  end
 
 
 end

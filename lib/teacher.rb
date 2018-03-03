@@ -6,17 +6,17 @@ class Teacher < User
 
     def initialize
       @@all = all
-      @@all << self 
+      @@all << self
     end
 
 
     def teach
       @@all << KNOWLEDGE
-      puts all 
+      puts all
     end
 
-    def knowledge
-      @knowledge
+    def self.all
+      @@all
     end
 
 end

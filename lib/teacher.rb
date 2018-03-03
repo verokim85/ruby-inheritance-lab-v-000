@@ -7,7 +7,7 @@ class Teacher < User
   # end
 
   def teach
-    self << KNOWLEDGE
+    return KNOWLEDGE
     #  knowledge = teacher
    end
 

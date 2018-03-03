@@ -5,8 +5,8 @@ class Teacher < User
 
 
     def initialize
-      
-    end 
+
+    end
 
 
-end 
+end

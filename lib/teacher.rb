@@ -4,15 +4,13 @@ class Teacher < User
 
 
   def initialize
-    @knowledge = []
+    @knowledge = KNOWLEDGE
   end
-  
+
   def teach
-    KNOWLEDGE.map do |word|
-    @knowledge << word
-    end
+    knowledge
   end
-  
+
   def knowledge
     @knowledge
   end

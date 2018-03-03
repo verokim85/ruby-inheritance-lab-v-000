@@ -16,8 +16,8 @@ attr_accessor :knowledge
 
     end
     #
-    # def knowledge
-    #   @knowledge
+    def knowledge
+      KNOWLEDGE
     # end
 
 end

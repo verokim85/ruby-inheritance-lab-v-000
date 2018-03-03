@@ -6,7 +6,7 @@ class Student < User
 
   def learn(word)
     @knowledge << word
-    self.knowledge = self
+    knowledge = self
   end
 
   def knowledge

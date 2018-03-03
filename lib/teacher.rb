@@ -13,7 +13,7 @@ attr_accessor :knowledge
 
     def teach
       return KNOWLEDGE
-    
+
     end
 
     def knowledge

@@ -8,7 +8,7 @@ class Teacher < User
 
   def teach
     @knowledge << KNOWLEDGE
-     @knowledge.flatten
+     @knowledge.flatten = self
   end
 
   def knowledge

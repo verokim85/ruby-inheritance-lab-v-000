@@ -8,7 +8,7 @@ class Teacher < User
   end
 
   def teach
-    self.KNOWLEDGE.each do |word|
+    KNOWLEDGE.each do |word|
       @knowledge << word
     end
   end

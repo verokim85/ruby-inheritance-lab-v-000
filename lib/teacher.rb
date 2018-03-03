@@ -8,8 +8,8 @@ class Teacher < User
   end
 
   def teach
-    @knowledge << KNOWLEDGE
-  p   @knowledge = 
+    @knowledge << KNOWLEDGE.join
+  p   @knowledge =
   end
 
   def knowledge

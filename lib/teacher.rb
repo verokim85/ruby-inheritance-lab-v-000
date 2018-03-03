@@ -7,7 +7,7 @@ class Teacher < User
 attr_accessor :knowledge
 
     def initialize
-      return @knowledge = KNOWLEDGE
+      @knowledge = KNOWLEDGE
     end
 
 

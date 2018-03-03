@@ -7,8 +7,8 @@ class Teacher < User
   end
 
   def teach
-    return KNOWLEDGE
-     knowledge = teacher
+    @knowledge << KNOWLEDGE
+     knowledge = self
    end
 
   def knowledge

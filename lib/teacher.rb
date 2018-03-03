@@ -11,7 +11,7 @@ class Teacher < User
 
     def teach
       @knowledge = KNOWLEDGE
-      return @knowledge
+    p  return @knowledge
     end
 
     def knowledge

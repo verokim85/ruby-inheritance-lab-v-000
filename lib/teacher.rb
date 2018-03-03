@@ -5,8 +5,15 @@ class Teacher < User
 
 
     def initialize
-
+      @knowledge = knowledge
     end
 
+
+    def teach 
+    end 
+
+    def knowledge
+      @knowledge
+    end 
 
 end

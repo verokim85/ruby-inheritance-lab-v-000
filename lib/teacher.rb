@@ -8,11 +8,11 @@ class Teacher < User
 
   def teach
     return KNOWLEDGE
-    #  knowledge = teacher
+     knowledge = teacher
    end
 
-  # def knowledge
-  #   @knowledge
-  # end
+  def knowledge
+    @knowledge
+  end
 
 end

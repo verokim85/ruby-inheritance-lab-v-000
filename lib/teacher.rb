@@ -9,7 +9,7 @@ class Teacher < User
 
   def teach
     KNOWLEDGE.each do |word|
-      @knowledge << word
+    p  @knowledge << word
     end
   end
 

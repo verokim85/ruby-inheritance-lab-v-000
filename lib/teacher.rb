@@ -10,7 +10,7 @@ class Teacher < User
 
 
     def teach
-      @knowledge = KNOWLEDGE
+    p  @knowledge = KNOWLEDGE
     end
 
     def knowledge

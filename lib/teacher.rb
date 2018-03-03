@@ -12,7 +12,7 @@ class Teacher < User
     def teach
     KNOWLEDGE.join
     @knowledge << KNOWLEDGE
-  p  return @knowledge
+     puts @knowledge
   end
 
   # def teach

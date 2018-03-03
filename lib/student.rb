@@ -4,13 +4,13 @@ class Student < User
     @knowledge = []
   end
 
-  def learn
-    @knowledge << ""
-
+  def learn(word)
+    @knowledge << word
+    self.knowledge = self
   end
 
   def knowledge
     @knowledge
-  end 
-  
+  end
+
 end

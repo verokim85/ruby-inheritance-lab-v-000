@@ -8,7 +8,7 @@ class Teacher < User
   end
 
   def teach
-    p KNOWLEDGE
+    return KNOWLEDGE
     # KNOWLEDGE.map do |word|
     #   word
     # end

@@ -5,12 +5,12 @@ class Teacher < User
 
 
     def initialize
-      @knowledge = knowledge
+      @knowledge = [knowledge]
     end
 
 
     def teach
-    puts @knowledge = KNOWLEDGE
+    @knowledge = KNOWLEDGE
       # puts @knowledge
     end
 

@@ -10,7 +10,7 @@ attr_accessor :student
     end
 
     def teach
-      learn(word)
+      learn(KNOWLEDGE)
     end
 
 end

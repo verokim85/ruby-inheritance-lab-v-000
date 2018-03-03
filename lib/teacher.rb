@@ -6,9 +6,9 @@ attr_accessor :student
 
 
     def initialize
-      @student = student 
-    end 
-    
+      @student = student
+    end
+
     def teach
       student.learn(KNOWLEDGE)
     end

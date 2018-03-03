@@ -4,10 +4,8 @@ class Teacher < User
 
     def teach(KNOWLEDGE)
         KNOWLEDGE
-  end
-  
-  def knowledge
-    @knowledge
-  end
+      end
+
+
 
 end

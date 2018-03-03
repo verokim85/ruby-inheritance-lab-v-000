@@ -10,7 +10,8 @@ class Teacher < User
   def teach
     self.KNOWLEDGE.each do |word|
       @knowledge << word
-  end
+    end
+  end 
 
   def knowledge
     @knowledge

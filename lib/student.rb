@@ -4,4 +4,7 @@ class Student < User
     @knowledge = []
   end
 
+  def leastn
+
+
 end

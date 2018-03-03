@@ -4,7 +4,7 @@ class Teacher < User
 
 
   def initialize
-    @knowledge = []
+    @knowledge = KNOWLEDGE
   end
 
   def teach

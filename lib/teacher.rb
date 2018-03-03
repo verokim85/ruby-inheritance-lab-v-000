@@ -10,8 +10,8 @@ class Teacher < User
 
 
     def teach
-    p  @knowledge = KNOWLEDGE
-      puts @knowledge
+    puts   @knowledge = KNOWLEDGE
+      # puts @knowledge
     end
 
     def knowledge

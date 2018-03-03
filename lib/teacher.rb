@@ -7,12 +7,12 @@ class Teacher < User
   end
 
   def teach
-     @knowledge << KNOWLEDGE
-     knowledge = teacher
+    KNOWLEDGE = self
+    #  knowledge = teacher
    end
 
-  def knowledge
-    @knowledge
-  end
+  # def knowledge
+  #   @knowledge
+  # end
 
 end

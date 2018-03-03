@@ -10,8 +10,8 @@ class Teacher < User
 
   def teach
     @knowledge << KNOWLEDGE
-     @knowledge = teacher
-   end
+     @knowledge = self
+  end
 
   def knowledge
     @knowledge

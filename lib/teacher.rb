@@ -8,6 +8,7 @@ class Teacher < User
 
   def teach(word)
      @knowledge << KNOWLEDGE
+     @knowledge = self
   end
 
 end

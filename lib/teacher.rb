@@ -6,7 +6,7 @@ class Teacher < User
   #   @knowledge = []
   # end
 
-  def teach
+  def teach(KNOWLEDGE)
     KNOWLEDGE = self
     #  knowledge = teacher
    end

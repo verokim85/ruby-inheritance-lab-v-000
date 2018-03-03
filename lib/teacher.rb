@@ -9,7 +9,7 @@ class Teacher < User
 
   def teach
     KNOWLEDGE.map do |word|
-    @knowledge << word
+      word
     end
   end
 

@@ -9,11 +9,12 @@ class Teacher < User
     end
 
 
-    def teach 
-    end 
+    def teach
+      @knowledge = KNOWLEDGE
+    end
 
     def knowledge
       @knowledge
-    end 
+    end
 
 end

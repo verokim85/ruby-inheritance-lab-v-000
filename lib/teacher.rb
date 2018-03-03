@@ -8,8 +8,8 @@ class Teacher < User
   end
 
   def teach
-    KNOWLEDGE.each do |word|
-    p  @knowledge << word
+    KNOWLEDGE.map do |word|
+    @knowledge << word
     end
   end
 
